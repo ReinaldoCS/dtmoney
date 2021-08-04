@@ -1,7 +1,21 @@
+import styled from 'styled-components';
+
+const Title = styled.h1`
+  font-size: 64px;
+  color: #8257E6;
+
+  button {
+    background: #000;
+  }
+`
+
 export function App() {
   return (
     <div className="App">
-      <h1>Hello Word</h1>
+      <Title>
+        Hello Word
+        <button>Salvar</button>
+      </Title>
     </div>
   );
 }
